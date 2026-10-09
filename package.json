@@ -1,0 +1,8 @@
+{
+  "name":"ulb-audit-management-system",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Responsive ULB Pre/Internal Audit management system - no external runtime dependencies",
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=18"}
+}
