@@ -1,0 +1,531 @@
+{
+  "users": [
+    {
+      "id": "18441d6b-0bfd-4576-822d-550a7203d04d",
+      "mobile": "9999999999",
+      "name": "System Administrator",
+      "role": "admin",
+      "active": true,
+      "password_hash": "pbkdf2$120000$47865dd37e8f5e18d43684b8e658cb6e$b587da9b64e5d5485a220439c9ccd040f78772ed6baf5fc65943ac0ec08415117f4d5675db4b3b0c283efd5d6981c709649fe0928ae7b589a9696bfabe87f0f8",
+      "created_at": "2026-10-08T08:19:57.431Z"
+    }
+  ],
+  "districts": [
+    {
+      "id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon",
+      "active": true
+    },
+    {
+      "id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod",
+      "active": true
+    },
+    {
+      "id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha",
+      "active": true
+    },
+    {
+      "id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara",
+      "active": true
+    },
+    {
+      "id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg",
+      "active": true
+    }
+  ],
+  "ulbs": [
+    {
+      "id": "19a4737a-b927-4680-8fe4-d83c06042b8f",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 01",
+      "code": "RAJ-01",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "06bcf8f8-c3dc-4888-8baa-b50047eee3ea",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 02",
+      "code": "RAJ-02",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "ae4b5c60-959c-4dda-aff7-a8e734f1994f",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 03",
+      "code": "RAJ-03",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "ab2beb2f-9723-41aa-b2b5-3ae0e4fe59f6",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 04",
+      "code": "RAJ-04",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "9495bade-08d1-4a27-a56c-39745ab7b62a",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 05",
+      "code": "RAJ-05",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "4a680aee-5a2a-499c-b9d7-37c238fdaf96",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 06",
+      "code": "RAJ-06",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "c02c2034-e5d3-4cff-a59b-a978367e5044",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 07",
+      "code": "RAJ-07",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "8cccf7ac-c8fa-4f0c-a439-0e67f5b309aa",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 08",
+      "code": "RAJ-08",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "353ef10a-9dae-4fad-8345-15f5a9ab5190",
+      "district_id": "46e9ca57-08f8-4654-b33b-98c91ddc3d52",
+      "name": "Rajnandgaon - ULB 09",
+      "code": "RAJ-09",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "9b25b427-0ab8-412a-90cc-6fbece9ac5a4",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 01",
+      "code": "BAL-01",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "9565dac4-84a4-4fa1-a2e0-0f5dff0201c0",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 02",
+      "code": "BAL-02",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "43c3cc33-fbbf-4b0a-8a9a-690959e8e669",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 03",
+      "code": "BAL-03",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "975de598-7b4a-468b-94c5-fc199ec4f43e",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 04",
+      "code": "BAL-04",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "be2ca441-5290-49af-a7da-4f061fd9e2ba",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 05",
+      "code": "BAL-05",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "e5a44acc-bc43-413b-af06-8ba339781cb9",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 06",
+      "code": "BAL-06",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "27c613e2-0c2e-4e2b-af2a-8d9e25567994",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 07",
+      "code": "BAL-07",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "7e7fb45e-933b-44c2-a7e8-ead626c8084a",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 08",
+      "code": "BAL-08",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "f4eea35a-b96c-4b1b-8e18-76e4dfe38f26",
+      "district_id": "43e45ec9-15a0-4f44-876b-898dee7a1a65",
+      "name": "Balod - ULB 09",
+      "code": "BAL-09",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "bdb38b57-112c-49fa-8fc0-d4edd0081fea",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 01",
+      "code": "KAW-01",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "ed11213d-9145-45d6-ae48-453abd97c693",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 02",
+      "code": "KAW-02",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "424c7e26-b59e-4739-802b-f8d8618f96a0",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 03",
+      "code": "KAW-03",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "c18c30ae-815c-4a5c-986a-244b75bc7c9a",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 04",
+      "code": "KAW-04",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "138f7b4f-5fad-4c28-a5ab-9c2bce9b505c",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 05",
+      "code": "KAW-05",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "b6a71182-0ad1-4e2d-90b5-441f035ece56",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 06",
+      "code": "KAW-06",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "9e422161-6e94-4292-b00f-f4124ce630f8",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 07",
+      "code": "KAW-07",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "ced3e09c-436f-482a-ae79-ee87652c920d",
+      "district_id": "0d340d4a-1c23-4c8b-9434-cc880f275d3c",
+      "name": "Kawardha - ULB 08",
+      "code": "KAW-08",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "5d94fcd7-0e8b-4a34-ac8a-221213dbead3",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 01",
+      "code": "BEM-01",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "4926122b-2bd4-48af-b153-bd401f6a0280",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 02",
+      "code": "BEM-02",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "e65a2364-c71a-4862-915b-b95d5b540588",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 03",
+      "code": "BEM-03",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "3a7cb174-87e1-41c4-ae42-092b58a84068",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 04",
+      "code": "BEM-04",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "8fadc846-de65-4bd0-b467-b350fa234760",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 05",
+      "code": "BEM-05",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "7bf183a8-2307-45fa-9f44-984bec6f241f",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 06",
+      "code": "BEM-06",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "f6c2f604-6a5c-4765-abb9-1a599a2df9d1",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 07",
+      "code": "BEM-07",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "59adf61a-4f32-402f-981d-15a3f158bb9a",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 08",
+      "code": "BEM-08",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "5151e4c2-3b1f-4e7c-9e96-7c3b42d07004",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 09",
+      "code": "BEM-09",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "54dd3a98-c81d-4d20-9f1d-bef6157cf777",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 10",
+      "code": "BEM-10",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "6211f051-4096-4b53-b85c-92a55a6e1d20",
+      "district_id": "ddbe7ca5-0b88-43e5-bdb9-901593d7291b",
+      "name": "Bemetara - ULB 11",
+      "code": "BEM-11",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "a994cd3f-e713-49a4-8623-4dc7cd33a667",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 01",
+      "code": "DUR-01",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "328cd2cd-108e-45d9-a6a4-2c93bd41d7e2",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 02",
+      "code": "DUR-02",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "63eed8d1-c32c-47be-abfb-033d38ce48be",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 03",
+      "code": "DUR-03",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "e5149743-08dd-4ccd-ae5b-b5082d36b366",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 04",
+      "code": "DUR-04",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "4f5fb4ec-8ebe-4e7f-946f-eb2585c6e377",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 05",
+      "code": "DUR-05",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "29404306-ddb0-43e6-976b-27f09ac2b54d",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 06",
+      "code": "DUR-06",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "bb505678-d04b-4f41-b0e8-4277187be460",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 07",
+      "code": "DUR-07",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "128e1dc8-3570-414a-8eb3-e2d347478635",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 08",
+      "code": "DUR-08",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "3f629004-d8b4-4264-b3d2-5c05b17c2058",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 09",
+      "code": "DUR-09",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "ee4ef430-91ce-43ed-9fc2-8bb25590699d",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 10",
+      "code": "DUR-10",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    },
+    {
+      "id": "42a3851a-6e10-43bc-8ab2-f8cc22ad5238",
+      "district_id": "e7252fdd-5307-4ad1-9d60-55f9802d472f",
+      "name": "Durg - ULB 11",
+      "code": "DUR-11",
+      "latitude": null,
+      "longitude": null,
+      "geofence_radius": 200,
+      "active": true
+    }
+  ],
+  "audits": [],
+  "form2": [],
+  "attendance": [],
+  "auditLogs": [],
+  "revenue": [],
+  "observations": [],
+  "checklists": [],
+  "checklistRecords": [],
+  "queryDocuments": []
+}
